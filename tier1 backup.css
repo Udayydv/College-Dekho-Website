@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(bg\ final.jpg);
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    /* height: 490% !important; */
+    /* width: 100% !important; */
+    /* object-fit: cover; */
+    /* display: block; */
+    background-size: 100% 253px;
+}
+
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    color: white;
+    padding-left: -5px;
+    padding-top: 2px;
+    filter: invert(100%);
+    /* filter: invert(100%) sepia(26%) saturate(1153%) hue-rotate(200deg) brightness(117%) contrast(109%); */
+    
+}
+
+.clg{
+    margin-top: 25px;
+    /* font-size: 25px; */
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: -85px;
+    margin-left: 3px
+    
+    
+}
+
+.left img{
+    width: 133px;
+    height: 124px;
+    padding-top: 5px;
+    margin-left: 20px;
+    margin-top: -30px;
+    
+    
+    
+}
+
+.left div{
+    /* line-height: height 19px; */
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    filter: invert(100%);
+    padding: 28px 13px;
+    margin-left: 5px;
+
+    
+}
+
+.mid{
+    display: block;
+    width: 61%;
+    /* border: 2px solid green; */
+    margin: -97px 22%;
+    padding-top: 9px;
+
+}
+
+.right{
+    /* border: 2px solid red; */
+    position: absolute;
+    right: 34px;
+    padding-top: 72px;
+    display: inline-block;
+    /* color: white; */
+    margin-top: -13px;
+    margin-right: -5px;
+    /* padding-left: 25px; */
+    /* padding-right: 25px; */
+    /* padding-top: 25px; */
+    /* padding-bottom: 25px; */
+}
+
+.navbar{
+    display: inline-block;
+    
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 12px;
+    
+}
+
+.navbar li a{
+    /* color: black; */
+    text-decoration: none;
+    padding: 25px 25px;
+    font-size: 17px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: -57px;
+    margin-right: 49px;
+    padding-left: 33px;
+}
+
+/* .navbar li a:hover, */
+
+
+.btn{
+    margin: -1px 5px;
+    padding: 4px 14px;
+    border: 2px solid white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-size: 11.5px;
+    color: #333;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-weight: bold;
+}
+
+.navbar li a:hover{
+    color: #f7f70e;
+}
+
+.btn:hover{
+    background-color: #e2e27a;
+}
